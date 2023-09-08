@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resizing Images</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-container {
+        background-color: aquamarine;
+        border-radius: 25px;
+        margin: 0 25px;
+        padding: 25px;
+        border: 25px solid brown;
+    }
+    img {
+        border-radius: 25px;
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="images/DSC09641.JPG" alt="img-1" width="300px" height="250px">
+        </div>
+        <div class="image-container">
+            <img src="images/DSC09652.JPG" alt="img-2" width="300px" height="250px">
+        </div>
+        <div class="image-container">
+            <img src="images/DSC09817.JPG" alt="img-3" width="300px" height="250px">
+        </div>
+    </div>
+</body>
+</html>
